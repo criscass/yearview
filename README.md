@@ -1,3 +1,3 @@
 # yearview
 
-## a clean and fresh view of all your year bookings
+## a clean view of your whole year bookings
