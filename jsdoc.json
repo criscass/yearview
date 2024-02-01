@@ -6,12 +6,20 @@
     "includePattern": ".+\\.js(doc|x)?$",
     "excludePattern": "(^|\\/|\\\\)_"
   },
+  "sourceType": "module",
   "plugins": [
     "plugins/markdown"
   ],
   "templates": {
     "cleverLinks": true,
     "monospaceLinks": true
+  },
+  "tags": {
+    "allowUnknownTags": true,
+    "dictionaries": [
+      "jsdoc",
+      "closure"
+    ]
   },
   "opts": {
     "recurse": true,
